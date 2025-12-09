@@ -57,6 +57,12 @@ main {
 	color: white;
 }
 
+.align-center {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
 /* ------------------ Footer ------------------ */
 
 .footer-icons-section {
