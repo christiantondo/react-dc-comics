@@ -21,12 +21,15 @@ function Footer() {
 							<li>SHOP</li>
 						</ul>
 					</div>
+
 					<img src="/dc-logo-bg.png" alt="" id="dc-logo-list-bg" />
 				</div>
 			</div>
 
 			<div className="footer-social-section">
-
+				<div className="container-boxed flex-container">
+					<button>SIGN-UP NOW!</button>
+				</div>
 			</div>
 		</footer>
 	)

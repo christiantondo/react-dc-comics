@@ -8,7 +8,6 @@ function App() {
 			<Header />
 			<Main />
 			<Footer />
-			<p>Hello DC Comics</p>
 		</div>
 	)
 }

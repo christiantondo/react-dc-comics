@@ -30,6 +30,10 @@ header {
 	justify-content: space-between;
 }
 
+.flex-item {
+	display: flex;
+}
+
 .header-list {
 	display: flex;
 	list-style: none;
@@ -68,11 +72,19 @@ main {
 
 .footer-social-section {
 	background-color: #303030;
-	height: 100px;
+	height: 120px;
 }
 
 #dc-logo-list-bg {
 	height: 350px
 }
 
-.footer-list-style {}
+button {
+	border-color: #4982F9;
+	border-width: 2.5px;
+	background-color: transparent;
+	padding: 15px;
+	font-size: 16px;
+	color: white;
+	display: flex;
+}
