@@ -114,11 +114,21 @@ button:hover {
 	cursor: pointer;
 }
 
-
 .icons-text {
 	color: white;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	margin-left: 1rem;
+}
+
+.space-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+#follow-us-style {
+	color: #4982F9;
+	font-size: 18px;
+	font-weight: 600;
 }

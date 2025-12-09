@@ -54,8 +54,15 @@ function Footer() {
 
 			<div className="footer-social-section">
 
-				<div className="container-boxed align-center">
-					<button>SIGN-UP NOW!</button>
+				<div className="container-boxed align-center space-between">
+					<div>
+						<button>SIGN-UP NOW!</button>
+					</div>
+
+					<div>
+						<p id="follow-us-style">FOLLOW US</p>
+
+					</div>
 				</div>
 
 			</div>
