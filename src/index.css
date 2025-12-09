@@ -109,7 +109,13 @@ button:hover {
 	height: 50px;
 }
 
-.icon-text {
+.icons-text:hover {
+	color: #003dbf;
+	cursor: pointer;
+}
+
+
+.icons-text {
 	color: white;
 	display: flex;
 	flex-direction: row;
