@@ -9,3 +9,34 @@ body {
     min-height: 100vh;
     background-color: #0E0E0E;
 }
+
+/* ------------------ Header ------------------ */
+
+header {
+    background-color: white;
+    padding: 1rem;
+}
+
+.container-boxed {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-weight: 550;
+}
+
+.dc-logo {
+    height: 80px;
+}
