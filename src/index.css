@@ -49,7 +49,30 @@ li:hover {
 /* ------------------ Main ------------------ */
 
 main {
-	background-color: #ff1a1a;
-	height: 120px;
+	background-color: #0E0E0E;
+	height: 150px;
 	color: white;
 }
+
+/* ------------------ Footer ------------------ */
+
+.footer-icons-section {
+	background-color: #4982F9;
+	height: 150px;
+}
+
+.footer-list-section {
+	background-image: url(/public/footer-bg.jpg);
+	height: 350px;
+}
+
+.footer-social-section {
+	background-color: #303030;
+	height: 100px;
+}
+
+#dc-logo-list-bg {
+	height: 350px
+}
+
+.footer-list-style {}
