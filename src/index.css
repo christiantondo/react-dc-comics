@@ -86,5 +86,8 @@ button {
 	padding: 15px;
 	font-size: 16px;
 	color: white;
-	display: flex;
+}
+
+button:hover {
+	cursor: pointer;
 }

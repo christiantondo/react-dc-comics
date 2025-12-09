@@ -27,9 +27,11 @@ function Footer() {
 			</div>
 
 			<div className="footer-social-section">
+
 				<div className="container-boxed flex-container">
 					<button>SIGN-UP NOW!</button>
 				</div>
+
 			</div>
 		</footer>
 	)
