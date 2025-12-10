@@ -74,6 +74,7 @@ main {
 
 .footer-list-section {
 	background-image: url(/public/footer-bg.jpg);
+	background-size: cover;
 	height: 350px;
 }
 
