@@ -79,12 +79,14 @@ main {
 }
 
 .footer-social-section {
+	position: relative;
+	z-index: 0;
 	background-color: #303030;
 	height: 120px;
 }
 
 #dc-logo-list-bg {
-	height: 350px
+	height: 550px;
 }
 
 button {

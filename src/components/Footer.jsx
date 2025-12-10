@@ -2,7 +2,7 @@ function Footer() {
 	return (
 		<footer>
 			<div className="footer-list-section">
-				<div className="container-boxed flex-container">
+				<div className="container-boxed flex-container align-center">
 					<div>
 						<ul>
 							<li>CHARACTERS</li>
@@ -18,7 +18,9 @@ function Footer() {
 						</ul>
 					</div>
 
-					<img src="/dc-logo-bg.png" alt="" id="dc-logo-list-bg" />
+					<div>
+						<img src="/dc-logo-bg.png" alt="" id="dc-logo-list-bg" />
+					</div>
 				</div>
 			</div>
 
