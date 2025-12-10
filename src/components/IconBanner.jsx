@@ -24,7 +24,7 @@ function IconBanner() {
                     </div>
 
                     <div className="flex-item">
-                        <img className="icons-style" src="/buy-comics-subscriptions.png" alt="" />
+                        <img className="icons-style" src="/buy-dc-power-visa.svg" alt="" />
                         <p className="icons-text">DC POWER VISA</p>
                     </div>
 
