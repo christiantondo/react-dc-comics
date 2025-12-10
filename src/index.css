@@ -70,6 +70,8 @@ main {
 	height: 150px;
 	display: flex;
 	align-items: center;
+	position: relative;
+	z-index: 1;
 }
 
 .footer-list-section {
