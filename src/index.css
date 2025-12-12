@@ -130,6 +130,10 @@ button:hover {
 	margin-left: 1rem;
 }
 
+.social-icons {
+	margin: 0.50rem;
+}
+
 .space-between {
 	display: flex;
 	justify-content: space-between;
@@ -139,4 +143,5 @@ button:hover {
 	color: #4982F9;
 	font-size: 18px;
 	font-weight: 600;
+	margin: 1rem;
 }

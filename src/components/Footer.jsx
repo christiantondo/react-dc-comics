@@ -31,9 +31,14 @@ function Footer() {
 						<button>SIGN-UP NOW!</button>
 					</div>
 
-					<div>
-						<p id="follow-us-style">FOLLOW US</p>
+					<div className="flex-item align-center">
 
+						<p id="follow-us-style">FOLLOW US</p>
+						<img src="/footer-facebook.png" className="social-icons" alt="" />
+						<img src="/footer-periscope.png" className="social-icons" alt="" />
+						<img src="/footer-pinterest.png" className="social-icons" alt="" />
+						<img src="/footer-twitter.png" className="social-icons" alt="" />
+						<img src="/footer-youtube.png" className="social-icons" alt="" />
 					</div>
 				</div>
 
