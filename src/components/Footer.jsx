@@ -39,7 +39,6 @@ function Footer() {
 						<a href="https://it.pinterest.com/dccomics/" target="blank"><img src="/footer-pinterest.png" className="social-icons" alt="" /></a>
 						<a href="https://x.com/DCOfficial" target="blank"><img src="/footer-twitter.png" className="social-icons" alt="" /></a>
 						<a href="https://www.youtube.com/@dcofficial" target="blank"><img src="/footer-youtube.png" className="social-icons" alt="" /></a>
-
 					</div>
 				</div>
 

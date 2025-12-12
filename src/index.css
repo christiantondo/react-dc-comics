@@ -135,6 +135,11 @@ button:hover {
 	margin: 0.50rem;
 }
 
+.social-icons:hover {
+	background: #003dbf;
+	border-radius: 50px;
+}
+
 .space-between {
 	display: flex;
 	justify-content: space-between;
