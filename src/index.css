@@ -17,15 +17,6 @@ body {
 
 /* ------------------ Footer ------------------ */
 
-.footerIconsSection {
-	background-color: #4982F9;
-	height: 150px;
-	display: flex;
-	align-items: center;
-	position: relative;
-	z-index: 1;
-}
-
 .footer-list-section {
 	background-image: url(/public/footer-bg.jpg);
 	background-size: cover;
@@ -56,30 +47,6 @@ button {
 button:hover {
 	border-color: #003dbf;
 	cursor: pointer;
-}
-
-.icons-spacing {
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
-}
-
-.icons-style {
-	height: 50px;
-}
-
-.icons-text:hover {
-	color: #003dbf;
-	cursor: pointer;
-}
-
-.icons-text {
-	font-size: 14px;
-	color: white;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	margin-left: 1rem;
 }
 
 .social-icons {

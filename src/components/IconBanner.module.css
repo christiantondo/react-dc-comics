@@ -1,0 +1,41 @@
+.iconSection {
+    background-color: #4982F9;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.flexItem {
+    display: flex;
+}
+
+.containerBoxed {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.iconSpacing {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.iconStyle {
+    height: 50px;
+}
+
+.iconText:hover {
+    color: #003dbf;
+    cursor: pointer;
+}
+
+.iconText {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1rem;
+}
