@@ -1,5 +1,18 @@
 import style from "./Header.module.css"
 
+const links = [
+	"CHARACTERS",
+	"COMICS",
+	"MOVIES",
+	"TV",
+	"GAMES",
+	"COLLECTIBLES",
+	"VIDEOS",
+	"FANS",
+	"NEWS",
+	"SHOP"
+]
+
 function Header() {
 	return (
 		<header className={style.header}>
@@ -8,16 +21,9 @@ function Header() {
 
 				<nav>
 					<ul className={style.headerList}>
-						<li>CHARACTERS</li>
-						<li>COMICS</li>
-						<li>MOVIES</li>
-						<li>TV</li>
-						<li>GAMES</li>
-						<li>COLLECTIBLES</li>
-						<li>VIDEOS</li>
-						<li>FANS</li>
-						<li>NEWS</li>
-						<li>SHOP</li>
+						{
+							links.map(link => <li><a href="#">{link}</a></li>)
+						}
 					</ul>
 				</nav>
 			</div>
