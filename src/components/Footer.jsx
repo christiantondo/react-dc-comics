@@ -4,7 +4,7 @@ function Footer() {
 	return (
 		<footer>
 			<div className={style.listSection}>
-				<div className={`${style.containerBoxed} ${style.flexContainer} ${style.alignCenter}`}>
+				<div className="containerBoxed flexContainer alignCenter">
 					<div>
 						<ul>
 							<li>CHARACTERS</li>
@@ -28,12 +28,12 @@ function Footer() {
 
 			<div className={style.socialSection}>
 
-				<div className={`${style.containerBoxed} ${style.alignCenter} ${style.spaceBetween}`}>
+				<div className="containerBoxed alignCenter spaceBetween">
 					<div>
 						<button className={style.button}>SIGN-UP NOW!</button>
 					</div>
 
-					<div className={`${style.flexItem} ${style.alignCenter}`}>
+					<div className="flexItem alignCenter">
 
 						<p className={style.followusStyle}>FOLLOW US</p>
 

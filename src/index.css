@@ -9,3 +9,30 @@ body {
 	min-height: 100vh;
 	background-color: #0E0E0E;
 }
+
+.containerBoxed {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.flexContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.alignCenter {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.spaceBetween {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flexItem {
+	display: flex;
+}

@@ -1,22 +1,4 @@
 /* ------------------ Footer ------------------ */
-.containerBoxed {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.flexContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.alignCenter {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
 .listSection {
     background-image: url(/public/footer-bg.jpg);
     background-size: cover;
@@ -56,11 +38,6 @@
 .socialIcon:hover {
     background: #003dbf;
     border-radius: 50px;
-}
-
-.spaceBetween {
-    display: flex;
-    justify-content: space-between;
 }
 
 .followusStyle {
