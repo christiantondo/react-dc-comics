@@ -61,9 +61,8 @@ function Header() {
 
 				<nav>
 					<ul className={style.headerList}>
-						{
-							links.map(link => <li><a href="#">{link}</a></li>)
-						}
+						{links.map((link, i) =>
+							<li key={i}><a href={link.url}>{link.text}</a></li>)}
 					</ul>
 				</nav>
 			</div>
