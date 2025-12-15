@@ -13,6 +13,10 @@
     font-weight: 550;
 }
 
+.header li {
+    color: black;
+}
+
 .header li:hover {
     color: #4982F9;
     cursor: pointer;
