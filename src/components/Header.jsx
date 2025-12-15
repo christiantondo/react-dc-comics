@@ -3,7 +3,7 @@ import style from "./Header.module.css"
 function Header() {
 	return (
 		<header className={style.header}>
-			<div className={`${style.containerBoxed} ${style.flexContainer}`}>
+			<div className="containerBoxed flexContainer">
 				<img src="/dc-logo.png" alt="DC Comics Logo" className={style.dcLogo} />
 
 				<nav>

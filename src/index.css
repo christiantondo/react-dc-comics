@@ -10,6 +10,8 @@ body {
 	background-color: #0E0E0E;
 }
 
+/*----------- Flex ------------*/
+
 .containerBoxed {
 	max-width: 1200px;
 	margin: 0 auto;
