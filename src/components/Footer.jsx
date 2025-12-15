@@ -1,8 +1,10 @@
+import style from "./Footer.module.css"
+
 function Footer() {
 	return (
 		<footer>
-			<div className="footer-list-section">
-				<div className="container-boxed flex-container align-center">
+			<div className={style.listSection}>
+				<div className={`${style.containerBoxed} ${style.flexContainer} ${style.alignCenter}`}>
 					<div>
 						<ul>
 							<li>CHARACTERS</li>
@@ -19,47 +21,47 @@ function Footer() {
 					</div>
 
 					<div>
-						<img src="/dc-logo-bg.png" alt="" id="dc-logo-list-bg" />
+						<img src="/dc-logo-bg.png" alt="" className={style.dcLogo} />
 					</div>
 				</div>
 			</div>
 
-			<div className="footer-social-section">
+			<div className={style.socialSection}>
 
-				<div className="container-boxed align-center space-between">
+				<div className={`${style.containerBoxed} ${style.alignCenter} ${style.spaceBetween}`}>
 					<div>
-						<button>SIGN-UP NOW!</button>
+						<button className={style.button}>SIGN-UP NOW!</button>
 					</div>
 
-					<div className="flex-item align-center">
+					<div className={`${style.flexItem} ${style.alignCenter}`}>
 
-						<p id="follow-us-style">FOLLOW US</p>
+						<p className={style.followusStyle}>FOLLOW US</p>
 
 						<a href="https://www.facebook.com/dc/?brand_redir=248819758864166" target="blank">
-							<img src="/footer-facebook.png" className="social-icons" alt="" />
+							<img src="/footer-facebook.png" className={style.socialIcon} alt="" />
 						</a>
 
 						<a href="https://maps.app.goo.gl/Bz7eRmazYGsZM1qA7" target="blank">
-							<img src="/footer-periscope.png" className="social-icons" alt="" />
+							<img src="/footer-periscope.png" className={style.socialIcon} alt="" />
 						</a>
 
 						<a href="https://it.pinterest.com/dccomics/" target="blank">
-							<img src="/footer-pinterest.png" className="social-icons" alt="" />
+							<img src="/footer-pinterest.png" className={style.socialIcon} alt="" />
 						</a>
 
 						<a href="https://x.com/DCOfficial" target="blank">
-							<img src="/footer-twitter.png" className="social-icons" alt="" />
+							<img src="/footer-twitter.png" className={style.socialIcon} alt="" />
 						</a>
 
 						<a href="https://www.youtube.com/@dcofficial" target="blank">
-							<img src="/footer-youtube.png" className="social-icons" alt="" />
+							<img src="/footer-youtube.png" className={style.socialIcon} alt="" />
 						</a>
 
 					</div>
 				</div>
 
 			</div>
-		</footer>
+		</footer >
 	)
 }
 
