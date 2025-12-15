@@ -1,5 +1,6 @@
 import style from "./Footer.module.css"
 
+/* Array di oggetti ovvero i contenuti delle liste */
 const dccomicsList = [
 	{
 		id: 1,
@@ -37,6 +38,102 @@ const dccomicsList = [
 		url: "#"
 	},
 ]
+const shopList = [
+	{
+		id: 1,
+		text: "Shop DC",
+		url: "#"
+	},
+	{
+		id: 2,
+		text: "Shop DC Collectibles",
+		url: "#"
+	},
+]
+const dcList = [
+	{
+		id: 1,
+		text: "Terms of Use",
+		url: "#"
+	},
+	{
+		id: 2,
+		text: "Privacy Policy (New)",
+		url: "#"
+	},
+	{
+		id: 3,
+		text: "Ad Choices",
+		url: "#"
+	},
+	{
+		id: 4,
+		text: "Advertising",
+		url: "#"
+	},
+	{
+		id: 5,
+		text: "Jobs",
+		url: "#"
+	},
+	{
+		id: 6,
+		text: "Subscriptions",
+		url: "#"
+	},
+	{
+		id: 7,
+		text: "Talent Workshops",
+		url: "#"
+	},
+	{
+		id: 8,
+		text: "CPSC Certificates",
+		url: "#"
+	},
+	{
+		id: 9,
+		text: "Ratings",
+		url: "#"
+	},
+	{
+		id: 10,
+		text: "Shop Help",
+		url: "#"
+	},
+	{
+		id: 11,
+		text: "Contact Us",
+		url: "#"
+	},
+]
+const sitesList = [
+	{
+		id: 1,
+		text: "DC",
+		url: "#"
+	},
+	{
+		id: 2,
+		text: "MAD Magazine",
+		url: "#"
+	},
+	{
+		id: 3,
+		text: "DC Kids",
+		url: "#"
+	},
+	{
+		id: 4,
+		text: "DC Universe",
+		url: "#"
+	},
+	{
+		id: 5,
+		text: "DC Power Visa",
+		url: "#"
+	},
+]
 
 function Footer() {
 	return (
@@ -53,35 +150,20 @@ function Footer() {
 
 							<h3 className={style.listTitleFontStyle}>SHOP</h3>
 							<ul>
-								<li>Shop DC</li>
-								<li>Shop DC Collectibles</li>
+								{shopList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 							</ul>
 						</div>
 
 						<div>
 							<h3 className={style.listTitleFontStyle}>DC</h3>
-							<li>Terms Of Use</li>
-							<li>Privacy Policy (New)</li>
-							<li>Ad Choices</li>
-							<li>Advertising</li>
-							<li>Jobs</li>
-							<li>Subscriptions</li>
-							<li>Talent Workshops</li>
-							<li>CPSC Certificates</li>
-							<li>Ratings</li>
-							<li>Shop Help</li>
-							<li>Contact Us</li>
+							{dcList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 
 						</div>
 
 						<div>
 							<h3 className={style.listTitleFontStyle}>SITES</h3>
 							<ul>
-								<li>DC</li>
-								<li>MAD Magazine</li>
-								<li>DC Kids</li>
-								<li>DC Universe</li>
-								<li>DC Power Visa</li>
+								{sitesList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 							</ul>
 						</div>
 					</div>
