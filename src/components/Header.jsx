@@ -1,11 +1,13 @@
+import style from "./Header.module.css"
+
 function Header() {
 	return (
-		<header>
-			<div className="container-boxed flex-container">
-				<img src="/dc-logo.png" alt="DC Comics Logo" className="dc-logo" />
+		<header className={style.header}>
+			<div className={`${style.containerBoxed} ${style.flexContainer}`}>
+				<img src="/dc-logo.png" alt="DC Comics Logo" className={style.dcLogo} />
 
 				<nav>
-					<ul className="header-list">
+					<ul className={style.headerList}>
 						<li>CHARACTERS</li>
 						<li>COMICS</li>
 						<li>MOVIES</li>
@@ -19,7 +21,7 @@ function Header() {
 					</ul>
 				</nav>
 			</div>
-		</header>
+		</header >
 	)
 }
 

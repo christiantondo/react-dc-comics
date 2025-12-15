@@ -1,0 +1,22 @@
+/* ------------------ Main ------------------ */
+
+.main {
+    background-color: #0E0E0E;
+    height: 150px;
+    color: white;
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.flexItem {
+    display: flex;
+}
+
+.containerBoxed {
+    max-width: 1200px;
+    margin: 0 auto;
+}

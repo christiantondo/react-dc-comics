@@ -1,0 +1,35 @@
+/* ------------------ Header ------------------ */
+
+.header {
+    background-color: white;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerBoxed {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerList {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-weight: 550;
+}
+
+.header li:hover {
+    color: #4982F9;
+    cursor: pointer;
+}
+
+.dcLogo {
+    height: 80px;
+}
