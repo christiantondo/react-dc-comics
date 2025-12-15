@@ -1,5 +1,43 @@
 import style from "./Footer.module.css"
 
+const dccomicsList = [
+	{
+		id: 1,
+		text: "Characters",
+		url: "#"
+	},
+	{
+		id: 2,
+		text: "Comics",
+		url: "#"
+	},
+	{
+		id: 3,
+		text: "Movies",
+		url: "#"
+	},
+	{
+		id: 4,
+		text: "TV",
+		url: "#"
+	},
+	{
+		id: 5,
+		text: "Games",
+		url: "#"
+	},
+	{
+		id: 6,
+		text: "Videos",
+		url: "#"
+	},
+	{
+		id: 7,
+		text: "News",
+		url: "#"
+	},
+]
+
 function Footer() {
 	return (
 		<footer className={style.footer}>
@@ -10,13 +48,7 @@ function Footer() {
 						<div>
 							<h3 className={style.listTitleFontStyle}>DC COMICS</h3>
 							<ul className={`${style.shopColumn}`}>
-								<li>Characters</li>
-								<li>Comics</li>
-								<li>Movies</li>
-								<li>TV</li>
-								<li>Games</li>
-								<li>Videos</li>
-								<li>News</li>
+								{dccomicsList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 							</ul>
 
 							<h3 className={style.listTitleFontStyle}>SHOP</h3>

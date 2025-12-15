@@ -66,14 +66,18 @@
     margin-bottom: 10px;
 }
 
-li {
+.listElementStyle {
     padding: 0.20rem;
     font-size: small;
     color: #7a7a7a;
-    list-style: none;
+    text-decoration: none;
 }
 
-li:hover {
+.listElementStyle:hover {
     color: white;
     cursor: pointer;
+}
+
+.listDotOff {
+    list-style: none;
 }
