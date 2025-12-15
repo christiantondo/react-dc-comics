@@ -2,7 +2,7 @@ import style from "./Footer.module.css"
 
 function Footer() {
 	return (
-		<footer>
+		<footer className={style.footer}>
 			<div className={`${style.listSection}`}>
 				<div className="containerBoxed flexContainer alignCenter">
 
