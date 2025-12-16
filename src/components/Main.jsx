@@ -12,7 +12,7 @@ function Main() {
 					{comics.map(comic => {
 						return <div key={"fumetto id" + comic.id} className={`${style.card}`}>
 							<img src={comic.thumb} alt="" className={style.cardThumb} />
-							<h4>{comic.title}</h4>
+							<p>{comic.title}</p>
 						</div>
 					})
 					}
