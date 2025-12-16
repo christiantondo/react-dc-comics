@@ -1,22 +1,10 @@
 /* ------------------ Main ------------------ */
 
-.main {
+.jumbotron {
     background-image: url(/public/jumbotron.jpg);
     height: 400px;
-    color: white;
 }
 
-.alignCenter {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.flexItem {
-    display: flex;
-}
-
-.containerBoxed {
-    max-width: 1200px;
-    margin: 0 auto;
+.comicSection {
+    height: 400px;
 }

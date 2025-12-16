@@ -2,8 +2,10 @@ import style from "./Main.module.css"
 
 function Main() {
 	return (
-		<main className={style.main}>
-			<div className={`${style.containerBoxed} ${style.alignCenter}`} >
+		<main >
+			<div className={style.jumbotron}></div>
+
+			<div className={`${style.containerBoxed} ${style.alignCenter} ${style.comicSection}`} >
 
 			</div>
 		</main >
