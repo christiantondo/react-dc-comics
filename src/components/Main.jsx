@@ -7,7 +7,14 @@ function Main() {
 			<div className={style.jumbotron}>
 			</div>
 
+
+
 			<div className={style.comicSection}>
+
+				<div className={`containerBoxed positionRelative`}>
+					<h2 className={style.badge}>CURRENT SERIES</h2>
+				</div>
+
 				<div className={`containerBoxed alignStart wrapper`} >
 
 					{comics.map(comic => {

@@ -48,3 +48,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+.positionRelative {
+	position: relative;
+}
