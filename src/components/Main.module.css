@@ -23,3 +23,20 @@
     object-position: top;
     margin-bottom: 10px;
 }
+
+.btnPosition {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #4982F9;
+    color: white;
+    padding: 10px 60px 10px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #355fb8;
+}

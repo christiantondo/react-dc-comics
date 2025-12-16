@@ -18,7 +18,15 @@ function Main() {
 					}
 
 				</div>
+
+				<div className={style.btnPosition}>
+					<button className={style.btn}>LOAD MORE</button>
+				</div>
 			</div>
+
+
+
+
 		</main >
 	)
 }
