@@ -42,3 +42,8 @@ body {
 .flexItem {
 	display: flex;
 }
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}

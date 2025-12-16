@@ -3,13 +3,16 @@ import comics from "../data/comics"
 
 function Main() {
 	return (
-		<main >
+		<main>
 			<div className={style.jumbotron}>\</div>
 
-			<div className={`${style.containerBoxed} ${style.alignCenter} ${style.comicSection}`} >
+			<div className={`containerBoxed alignCenter ${style.comicSection}`} >
 
 				{comics.map(comic => {
-					return <div>{comic.title}</div>
+					return <div key={"fumetto id" + comic.id} className={`wrapper ${style.card}`}>
+						<img src={comic.thumb} alt="" className={style.cardThumb} />
+						<h4>{comic.title}</h4>
+					</div>
 				})
 				}
 
