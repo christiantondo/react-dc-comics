@@ -1,6 +1,6 @@
 import style from "./Header.module.css"
 
-const links = [
+const navLinks = [
 	{
 		id: 1,
 		text: "CHARACTERS",
@@ -53,6 +53,8 @@ const links = [
 	}
 ]
 
+
+
 function Header() {
 	return (
 		<header className={style.header}>
@@ -61,8 +63,9 @@ function Header() {
 
 				<nav>
 					<ul className={style.headerList}>
-						{links.map((link, i) =>
-							<li key={i}><a href={link.url} className={style.navLink}>{link.text}</a></li>)}
+						{navLinks.map((link, i) =>
+							<li key={i}><a href={link.url} className={style.navLink}>{link.text}</a></li>)
+						}
 					</ul>
 				</nav>
 			</div>
