@@ -7,7 +7,7 @@ function Main() {
 			<div className={style.jumbotron}>\</div>
 
 			<div className={style.comicSection}>
-				<div className={`containerBoxed alignCenter wrapper`} >
+				<div className={`containerBoxed alignStart wrapper`} >
 
 					{comics.map(comic => {
 						return <div key={"fumetto id" + comic.id} className={`${style.card}`}>
