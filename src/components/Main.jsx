@@ -4,7 +4,8 @@ import comics from "../data/comics"
 function Main() {
 	return (
 		<main>
-			<div className={style.jumbotron}>\</div>
+			<div className={style.jumbotron}>
+			</div>
 
 			<div className={style.comicSection}>
 				<div className={`containerBoxed alignStart wrapper`} >

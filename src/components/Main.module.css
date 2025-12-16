@@ -2,7 +2,9 @@
 
 .jumbotron {
     background-image: url(/public/jumbotron.jpg);
-    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 400px;
 }
 
 .comicSection {
