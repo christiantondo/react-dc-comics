@@ -6,10 +6,10 @@ function Main() {
 		<main>
 			<div className={style.jumbotron}>\</div>
 
-			<div className={`containerBoxed alignCenter ${style.comicSection}`} >
+			<div className={`containerBoxed alignCenter wrapper ${style.comicSection}`} >
 
 				{comics.map(comic => {
-					return <div key={"fumetto id" + comic.id} className={`wrapper ${style.card}`}>
+					return <div key={"fumetto id" + comic.id} className={`${style.card}`}>
 						<img src={comic.thumb} alt="" className={style.cardThumb} />
 						<h4>{comic.title}</h4>
 					</div>
