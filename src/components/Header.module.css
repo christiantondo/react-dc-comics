@@ -4,6 +4,8 @@
     background-color: white;
     padding: 1rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: sticky;
+    box-shadow: -1px 9px 17px -1px rgba(0, 0, 0, 0.27);
 }
 
 .headerList {
