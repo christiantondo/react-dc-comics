@@ -18,7 +18,7 @@ function Main() {
 				<div className={`containerBoxed alignStart wrapper`} >
 
 					{comics.map(comic => {
-						return <div key={"fumetto id" + comic.id} className={`${style.card}`}>
+						return <div key={"fumetto id" + comic.id} className={`${style.card} cardAnimation`}>
 							<img src={comic.thumb} alt="" className={style.cardThumb} />
 							<p>{comic.title}</p>
 						</div>

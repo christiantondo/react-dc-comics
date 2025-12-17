@@ -52,3 +52,12 @@ body {
 .positionRelative {
 	position: relative;
 }
+
+.cardAnimation {
+	transform: scale(1);
+	transition: transform 0.3s ease;
+}
+
+.cardAnimation:hover {
+	transform: scale(1.1);
+}
