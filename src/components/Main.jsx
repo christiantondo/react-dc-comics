@@ -5,14 +5,18 @@ function Main() {
 	return (
 		<main>
 
+			{/* Jumbotron con sfondo sotto all'header */}
 			<div className={style.jumbotron}></div>
 
+			{/* Sezione che contiene etichetta, card e bottone */}
 			<div className={style.comicSection}>
 
+				{/* Etichetta "Current series" */}
 				<div className={`containerBoxed positionRelative`}>
 					<h2 className={style.badge}>CURRENT SERIES</h2>
 				</div>
 
+				{/* Sezione delle card */}
 				<div className={`containerBoxed alignStart wrapper`} >
 
 					{/* Funzione che inserisce le card all'interno del main */}
@@ -25,6 +29,7 @@ function Main() {
 
 				</div>
 
+				{/* Bottone "Load more" */}
 				<div className={style.btnPosition}>
 					<button className={style.btn}>LOAD MORE</button>
 				</div>

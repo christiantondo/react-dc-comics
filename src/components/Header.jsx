@@ -59,10 +59,13 @@ function Header() {
 	return (
 		<header className={style.header}>
 
+			{/* Sezione che contiene logo e testi della navbar */}
 			<div className="containerBoxed flexContainer">
 
+				{/* Logo header DC Comics */}
 				<img src="/dc-logo.png" alt="DC Comics Logo" className={style.dcLogo} />
 
+				{/* Navbar con i link */}
 				<nav>
 
 					<ul className={style.headerList}>
