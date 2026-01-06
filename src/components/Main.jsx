@@ -4,10 +4,8 @@ import comics from "../data/comics"
 function Main() {
 	return (
 		<main>
-			<div className={style.jumbotron}>
-			</div>
 
-
+			<div className={style.jumbotron}></div>
 
 			<div className={style.comicSection}>
 
@@ -17,23 +15,21 @@ function Main() {
 
 				<div className={`containerBoxed alignStart wrapper`} >
 
+					{/* Funzione che inserisce le card all'interno del main */}
 					{comics.map(comic => {
 						return <div key={"fumetto id" + comic.id} className={`${style.card} cardAnimation`}>
 							<img src={comic.thumb} alt="" className={style.cardThumb} />
 							<p>{comic.title}</p>
 						</div>
-					})
-					}
+					})}
 
 				</div>
 
 				<div className={style.btnPosition}>
 					<button className={style.btn}>LOAD MORE</button>
 				</div>
+
 			</div>
-
-
-
 
 		</main >
 	)

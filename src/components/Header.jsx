@@ -1,5 +1,6 @@
 import style from "./Header.module.css"
 
+// Array di oggetti ovvero i link della navbar con id, text e url
 const navLinks = [
 	{
 		id: 1,
@@ -53,22 +54,29 @@ const navLinks = [
 	}
 ]
 
-
-
+// Funzione che stampa gli oggetti dell'array sovrastante all'interno della navbar
 function Header() {
 	return (
 		<header className={style.header}>
+
 			<div className="containerBoxed flexContainer">
+
 				<img src="/dc-logo.png" alt="DC Comics Logo" className={style.dcLogo} />
 
 				<nav>
+
 					<ul className={style.headerList}>
+
+						{/* Funzione che inserisce ogni singolo oggetto nell'header */}
 						{navLinks.map((link, i) =>
-							<li key={i}><a href={link.url} className={style.navLink}>{link.text}</a></li>)
-						}
+							<li key={i}><a href={link.url} className={style.navLink}>{link.text}</a></li>
+						)}
 					</ul>
+
 				</nav>
+
 			</div>
+
 		</header >
 	)
 }

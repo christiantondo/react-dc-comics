@@ -138,11 +138,16 @@ const sitesList = [
 function Footer() {
 	return (
 		<footer className={style.footer}>
+
+			{/* Sezione a sinistra con le varie liste */}
 			<div className={`${style.listSection}`}>
+
 				<div className="containerBoxed flexContainer alignCenter">
 
 					<div className={`flexContainer alignStart ${style.column}`}>
+
 						<div>
+
 							<h3 className={style.listTitleFontStyle}>DC COMICS</h3>
 							<ul className={`${style.shopColumn}`}>
 								{dccomicsList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
@@ -152,31 +157,39 @@ function Footer() {
 							<ul>
 								{shopList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 							</ul>
+
 						</div>
 
 						<div>
+
 							<h3 className={style.listTitleFontStyle}>DC</h3>
 							{dcList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 
 						</div>
 
 						<div>
+
 							<h3 className={style.listTitleFontStyle}>SITES</h3>
 							<ul>
 								{sitesList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 							</ul>
+
 						</div>
+
 					</div>
 
+
+					{/* Sezione a destra con il logo in grande inserito in background */}
 					<div>
 						<img src="/dc-logo-bg.png" alt="" className={style.dcLogo} />
 					</div>
 
 				</div>
 
-
 			</div>
 
+
+			{/* Sezione con il bottone e le icone dei social */}
 			<div className={style.socialSection}>
 
 				<div className="containerBoxed alignCenter spaceBetween">
@@ -209,9 +222,11 @@ function Footer() {
 						</a>
 
 					</div>
+
 				</div>
 
 			</div>
+
 		</footer >
 	)
 }
