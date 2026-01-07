@@ -8,7 +8,7 @@ function IconBanner() {
             <div className={`containerBoxed ${style.iconSpacing}`} >
 
                 {bannerIcons.map((icon =>
-                    <div className="flexItem">
+                    <div key={"Icon id:" + icon.id} className="flexItem">
                         <img className={style.iconStyle} src={icon.src} alt="" />
                         <p className={style.iconText}>{icon.text}</p>
                     </div>
