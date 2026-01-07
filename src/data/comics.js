@@ -1,3 +1,4 @@
+// Contenuti delle card
 const comics = [
   {
     id: 1,
@@ -152,5 +153,4 @@ const comics = [
     writers: ["Joëlle Jones"],
   },
 ];
-
 export default comics
