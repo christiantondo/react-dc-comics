@@ -21,7 +21,7 @@ function Main() {
 
 					{/* Funzione che inserisce le card all'interno del main */}
 					{comics.map(comic => {
-						return <div key={"fumetto id" + comic.id} className={`${style.card} cardAnimation`}>
+						return <div key={"fumetto id:" + comic.id} className={`${style.card} cardAnimation`}>
 							<img src={comic.thumb} alt="" className={style.cardThumb} />
 							<p>{comic.title}</p>
 						</div>

@@ -71,8 +71,8 @@ function Header() {
 					<ul className={style.headerList}>
 
 						{/* Funzione che inserisce ogni singolo oggetto nell'header */}
-						{navLinks.map((link, i) =>
-							<li key={i}><a href={link.url} className={style.navLink}>{link.text}</a></li>
+						{navLinks.map((link) =>
+							<li key={"Nav link id:" + link.id}><a href={link.url} className={style.navLink}>{link.text}</a></li>
 						)}
 					</ul>
 

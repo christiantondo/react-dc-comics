@@ -150,12 +150,12 @@ function Footer() {
 
 							<h3 className={style.listTitleFontStyle}>DC COMICS</h3>
 							<ul className={`${style.shopColumn}`}>
-								{dccomicsList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
+								{dccomicsList.map((link) => <li key={"List link id:" + link.id} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 							</ul>
 
 							<h3 className={style.listTitleFontStyle}>SHOP</h3>
 							<ul>
-								{shopList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
+								{shopList.map((link) => <li key={"List link id:" + link.id} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 							</ul>
 
 						</div>
@@ -163,7 +163,7 @@ function Footer() {
 						<div>
 
 							<h3 className={style.listTitleFontStyle}>DC</h3>
-							{dcList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
+							{dcList.map((link) => <li key={"List link id:" + link.id} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 
 						</div>
 
@@ -171,7 +171,7 @@ function Footer() {
 
 							<h3 className={style.listTitleFontStyle}>SITES</h3>
 							<ul>
-								{sitesList.map((link, i) => <li key={i} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
+								{sitesList.map((link) => <li key={"List link id:" + link.id} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
 							</ul>
 
 						</div>
