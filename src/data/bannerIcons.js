@@ -26,3 +26,5 @@ const bannerIcons = [
         text: "DC POWER VISA"
     }
 ]
+
+export default bannerIcons

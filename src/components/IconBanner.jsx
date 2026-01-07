@@ -1,4 +1,5 @@
 import style from "./IconBanner.module.css"
+import bannerIcons from "../data/bannerIcons"
 
 function IconBanner() {
     return (
@@ -13,7 +14,8 @@ function IconBanner() {
 
                 </div>
 
-                <div className="flexItem">
+
+                {          /*      <div className="flexItem">
 
                     <img className={style.iconStyle} src="/buy-comics-merchandise.png" alt="" />
                     <p className={style.iconText}>DC MERCHANDISE</p>
@@ -39,7 +41,7 @@ function IconBanner() {
                     <img className={style.iconStyle} src="/buy-dc-power-visa.svg" alt="" />
                     <p className={style.iconText}>DC POWER VISA</p>
 
-                </div>
+                </div> */}
 
             </div>
 
