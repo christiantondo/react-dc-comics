@@ -30,7 +30,9 @@ function Footer() {
 						<div>
 
 							<h3 className={style.listTitleFontStyle}>DC</h3>
-							{dcList.map((link) => <li key={"List link id:" + link.id} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
+							<ul>
+								{dcList.map((link) => <li key={"List link id:" + link.id} className={style.listDotOff}><a href={link.url} className={style.listElementStyle}>{link.text}</a></li>)}
+							</ul>
 
 						</div>
 
