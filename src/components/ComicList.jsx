@@ -1,7 +1,7 @@
 import comics from "../data/comics"
-import cardStyle from "../components/Card.module.css"
+import cardStyle from "../components/ComicList.module.css"
 
-function Card() {
+function ComicList() {
     return <div className={`containerBoxed alignStart wrapper`} >
 
         {/* Funzione che inserisce le card all'interno del main */}
@@ -14,4 +14,4 @@ function Card() {
 
     </div>
 }
-export default Card
+export default ComicList

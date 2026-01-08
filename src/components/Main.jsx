@@ -1,5 +1,5 @@
 import style from "./Main.module.css"
-import Card from "../components/Card"
+import ComicList from "./ComicList"
 
 function Main() {
 	return <main>
@@ -17,7 +17,7 @@ function Main() {
 
 			{/* Sezione delle card */}
 			<div className="wrapper">
-				<Card />
+				<ComicList />
 			</div>
 
 			{/* Bottone "Load more" */}
