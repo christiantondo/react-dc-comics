@@ -34,6 +34,12 @@ body {
 	align-items: start;
 }
 
+.wrapper {
+	gap: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .spaceBetween {
 	display: flex;
 	justify-content: space-between;
@@ -43,11 +49,6 @@ body {
 	display: flex;
 }
 
-.wrapper {
-	gap: 20px;
-	display: flex;
-	flex-wrap: wrap;
-}
 
 .positionRelative {
 	position: relative;
