@@ -1,0 +1,14 @@
+.card {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    width: 15%;
+}
+
+.cardThumb {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
